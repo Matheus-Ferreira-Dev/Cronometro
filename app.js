@@ -11,7 +11,7 @@ btnStart.onclick = () => {
 
     let value = parseFloat(span.innerHTML)
 
-    interval = setInterval(()=> {
+    interval = setInterval(() => {
         value += 0.1
 
         span.innerHTML = value.toFixed(1)
@@ -21,14 +21,14 @@ btnStart.onclick = () => {
 btnPause.onclick = () => {
     btnStart.disabled = false
     btnPause.disabled = true
-    
+
     clearInterval(interval)
 }
 
 btnClean.onclick = () => {
     btnStart.disabled = false
     btnPause.disabled = true
-    
+
     clearInterval(interval)
     span.innerHTML = "0.0"
 
