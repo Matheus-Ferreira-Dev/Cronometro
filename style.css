@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #011936;
+    background: linear-gradient(#FF1B1C, #6B0504);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -35,6 +35,8 @@ img {
 
 button {
     cursor: pointer;
+    background-color: #FF7F11;
+    color: #fff;
 }
 
 i {
